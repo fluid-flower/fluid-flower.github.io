@@ -14,10 +14,19 @@
       --muted: #4b5563;
       --border: #e5e7eb;
       --accent: #0f766e;
+      --accent-soft: #ecfdf5;
       --shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+      --radius: 20px;
+      --max-width: 860px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
 
     body {
       margin: 0;
@@ -26,53 +35,159 @@
       font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
     }
 
-    main {
-      max-width: 760px;
+    a {
+      color: var(--accent);
+      text-underline-offset: 2px;
+    }
+
+    a:hover,
+    a:focus-visible {
+      text-decoration-thickness: 2px;
+    }
+
+    .page {
+      width: min(100% - 32px, var(--max-width));
       margin: 0 auto;
-      padding: 48px 20px 72px;
+      padding: 32px 0 56px;
     }
 
     .card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 32px 24px;
+      border-radius: var(--radius);
       box-shadow: var(--shadow);
+      padding: 28px 22px;
+    }
+
+    header.card {
+      margin-bottom: 20px;
+    }
+
+    main.card section + section {
+      margin-top: 28px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.2;
+      margin: 0 0 12px;
     }
 
     h1 {
-      margin: 0 0 12px;
-      line-height: 1.2;
-      font-size: clamp(2rem, 5vw, 3rem);
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      letter-spacing: -0.03em;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: var(--accent);
     }
 
     p {
       margin: 0 0 12px;
+    }
+
+    .lede {
+      font-size: 1.05rem;
       color: var(--muted);
+      max-width: 60ch;
     }
 
-    ul {
-      margin: 20px 0 0;
-      padding-left: 20px;
-    }
-
-    a {
+    .summary {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
       color: var(--accent);
-      text-underline-offset: 2px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: 1fr;
+    }
+
+    .panel {
+      background: #fbfdff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    @media (min-width: 720px) {
+      .page {
+        width: min(100% - 48px, var(--max-width));
+        padding-top: 48px;
+        padding-bottom: 72px;
+      }
+
+      .card {
+        padding: 36px 34px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <main>
-    <section class="card">
+  <header class="page">
+    <div class="card">
       <h1>Fluid Flower</h1>
-      <p>This site hosts verification and support files for Fluid Flower apps.</p>
-      <ul>
-        <li><a href="/app-ads.txt">View app-ads.txt</a></li>
-        <li><a href="https://fluid-flower.github.io/swipe-the-flow-privacy/">Swipe the Flow Privacy Policy</a></li>
-        <li><a href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html">Swipe the Flow Support</a></li>
-      </ul>
-    </section>
+      <p class="lede">This site hosts root verification files and support links for Fluid Flower apps, including Swipe the Flow.</p>
+      <p class="summary">Root hosting for app-ads.txt and app support links.</p>
+    </div>
+  </header>
+  <main class="page">
+    <div class="card">
+      <section aria-labelledby="verification-heading">
+        <h2 id="verification-heading">Verification</h2>
+        <div class="grid">
+          <div class="panel">
+            <span class="label">app-ads.txt</span>
+            <p><a href="/app-ads.txt">View the root app-ads.txt file</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="swipe-the-flow-heading">
+        <h2 id="swipe-the-flow-heading">Swipe the Flow</h2>
+        <div class="grid">
+          <div class="panel">
+            <span class="label">Privacy Policy</span>
+            <p><a href="https://fluid-flower.github.io/swipe-the-flow-privacy/">View the Swipe the Flow Privacy Policy</a></p>
+          </div>
+          <div class="panel">
+            <span class="label">Support</span>
+            <p><a href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html">View the Swipe the Flow Support page</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
+  <footer class="page">
+    <p>Fluid Flower site root</p>
+  </footer>
 </body>
 </html>
