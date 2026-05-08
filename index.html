@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fluid Flower</title>
+  <meta name="description" content="Site root for Fluid Flower app support and app-ads.txt hosting.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --accent: #0f766e;
+      --shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+      color: var(--text);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px 72px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 24px;
+      box-shadow: var(--shadow);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      line-height: 1.2;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    p {
+      margin: 0 0 12px;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 20px 0 0;
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--accent);
+      text-underline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <h1>Fluid Flower</h1>
+      <p>This site hosts verification and support files for Fluid Flower apps.</p>
+      <ul>
+        <li><a href="/app-ads.txt">View app-ads.txt</a></li>
+        <li><a href="https://fluid-flower.github.io/swipe-the-flow-privacy/">Swipe the Flow Privacy Policy</a></li>
+        <li><a href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html">Swipe the Flow Support</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
