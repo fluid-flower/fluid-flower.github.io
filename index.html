@@ -10,6 +10,8 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fluid-flower.github.io/">
   <link rel="canonical" href="https://fluid-flower.github.io/">
+  <link rel="icon" type="image/png" href="/app-icon.png">
+  <link rel="apple-touch-icon" href="/app-icon.png">
   <title>Swipe the Flow — Interactive Fluid Simulator</title>
   <style>
     :root {
@@ -89,40 +91,14 @@
     }
 
     .brand-mark {
-      position: relative;
       width: 34px;
       height: 34px;
-      overflow: hidden;
+      display: block;
       border: 1px solid rgba(255, 255, 255, 0.14);
       border-radius: 10px;
       background: #000;
       box-shadow: 0 7px 18px rgba(0, 0, 0, 0.35);
-    }
-
-    .brand-mark::before,
-    .brand-mark::after {
-      position: absolute;
-      width: 26px;
-      height: 6px;
-      border-radius: 999px;
-      content: "";
-      transform-origin: left center;
-    }
-
-    .brand-mark::before {
-      left: 9px;
-      top: 15px;
-      background: var(--blue);
-      transform: rotate(-28deg);
-      box-shadow: 7px -5px 12px rgba(22, 135, 255, 0.65);
-    }
-
-    .brand-mark::after {
-      left: 9px;
-      top: 16px;
-      background: var(--red);
-      transform: rotate(28deg);
-      box-shadow: 7px 5px 12px rgba(255, 48, 69, 0.55);
+      object-fit: cover;
     }
 
     .nav-links {
@@ -661,7 +637,7 @@
   <header class="site-header">
     <div class="shell nav">
       <a class="brand" href="#top" aria-label="Swipe the Flow home">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <img class="brand-mark" src="/app-icon.png" width="34" height="34" alt="">
         <span>Swipe the Flow</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
