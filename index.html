@@ -4,15 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#05070b">
-  <meta name="description" content="Swipe the Flow is a real-time interactive fluid simulator for iPhone and iPad. Draw wind, shape liquid, and create with photos and logos.">
-  <meta property="og:title" content="Swipe the Flow — Interactive Fluid Simulator">
-  <meta property="og:description" content="Touch, draw, and watch liquid and wind respond in real time.">
+  <meta name="description" content="Swipe the Flow is a real-time interactive fluid simulator for iPhone and iPad. Draw walls, guide wind, carve a maze, and shape liquid.">
+  <meta property="og:title" content="Swipe the Flow — Draw. Guide. Flow.">
+  <meta property="og:description" content="Take on two fluid challenges or create freely with wind and liquid.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://fluid-flower.github.io/">
   <link rel="canonical" href="https://fluid-flower.github.io/">
   <link rel="icon" type="image/png" href="/app-icon.png">
   <link rel="apple-touch-icon" href="/app-icon.png">
-  <title>Swipe the Flow — Interactive Fluid Simulator</title>
+  <title>Swipe the Flow — Draw. Guide. Flow.</title>
   <style>
     :root {
       color-scheme: dark;
@@ -642,7 +642,7 @@
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#modes" data-lang data-ko="모드" data-en="Modes">모드</a>
-        <a href="#creator" data-lang data-ko="Creator Update" data-en="Creator Update">Creator Update</a>
+        <a href="#challenges" data-lang data-ko="도전" data-en="Challenges">도전</a>
         <a href="#pro" data-lang data-ko="Pro" data-en="Pro">Pro</a>
         <button class="language-button" id="languageButton" type="button" aria-label="Switch language">EN</button>
       </nav>
@@ -652,22 +652,22 @@
   <main id="top">
     <div class="shell hero">
       <div>
-        <p class="eyebrow"><span class="eyebrow-dot"></span><span data-lang data-ko="iPhone과 iPad에서 실시간으로" data-en="Real time on iPhone and iPad">iPhone과 iPad에서 실시간으로</span></p>
-        <h1><span data-lang data-ko="흐름을" data-en="Touch the">흐름을</span><br><span class="gradient-word" data-lang data-ko="직접 만지세요." data-en="flow.">직접 만지세요.</span></h1>
-        <p class="hero-copy" data-lang data-ko="손가락으로 바람을 그리고, 액체를 밀고, 화면 속 흐름이 즉시 반응하는 모습을 즐겨보세요. 어려운 지식 없이 시작하는 인터랙티브 유체 시뮬레이션입니다." data-en="Draw wind, push liquid, and watch every flow respond to your touch. An interactive fluid simulator made to feel immediate and intuitive.">손가락으로 바람을 그리고, 액체를 밀고, 화면 속 흐름이 즉시 반응하는 모습을 즐겨보세요. 어려운 지식 없이 시작하는 인터랙티브 유체 시뮬레이션입니다.</p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span><span data-lang data-ko="1.5 새로운 유체 도전" data-en="1.5 New Fluid Challenges">1.5 새로운 유체 도전</span></p>
+        <h1><span data-lang data-ko="그리고." data-en="Draw.">그리고.</span><br><span class="gradient-word" data-lang data-ko="흐르게 하세요." data-en="Guide. Flow.">흐르게 하세요.</span></h1>
+        <p class="hero-copy" data-lang data-ko="벽을 그려 바람을 목표로 보내고, 미로를 파서 최대한 늦게 탈출시키세요. 두 가지 새 도전에서 기록을 갱신하거나 바람과 액체를 자유롭게 만들어보세요." data-en="Draw walls to guide the wind into a target, or carve a maze and delay its escape. Improve your personal best in two new challenges—or keep creating freely with wind and liquid.">벽을 그려 바람을 목표로 보내고, 미로를 파서 최대한 늦게 탈출시키세요. 두 가지 새 도전에서 기록을 갱신하거나 바람과 액체를 자유롭게 만들어보세요.</p>
         <div class="actions">
           <a class="button button-primary" href="https://apps.apple.com/app/id6766940354" target="_blank" rel="noopener">
             <span class="apple-mark" aria-hidden="true"></span>
             <span data-lang data-ko="App Store에서 보기" data-en="View on the App Store">App Store에서 보기</span>
           </a>
-          <a class="button button-secondary" href="#modes" data-lang data-ko="세 가지 모드 보기" data-en="Explore three modes">세 가지 모드 보기</a>
+          <a class="button button-secondary" href="#challenges" data-lang data-ko="새 도전 보기" data-en="Explore challenges">새 도전 보기</a>
         </div>
       </div>
 
-      <div class="hero-visual" aria-label="Abstract real-time wind simulation preview">
+      <div class="hero-visual" aria-label="Wind Paths real-time simulation preview">
         <div class="hero-glow"></div>
         <div class="device">
-          <svg class="flow-stage" viewBox="0 0 390 574" role="img" aria-label="Wind flowing around an image layer">
+          <svg class="flow-stage" viewBox="0 0 390 574" role="img" aria-label="Wind guided between walls toward a target">
             <defs>
               <linearGradient id="screenBg" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0" stop-color="#02040a"/>
@@ -694,13 +694,13 @@
               <path d="M-20 255C68 252 98 263 138 280C179 298 216 298 255 279C294 260 338 252 420 257" stroke="#48d9ff" stroke-width="3" opacity="0.62"/>
               <path d="M-20 318C65 320 99 310 139 294C180 278 216 279 255 296C296 314 342 323 420 318" stroke="#ff6b7a" stroke-width="3" opacity="0.6"/>
             </g>
-            <rect x="151" y="218" width="88" height="142" rx="23" fill="#0b0e16" stroke="#fff" stroke-opacity="0.22"/>
-            <rect x="162" y="229" width="66" height="120" rx="17" fill="url(#photo)"/>
-            <circle cx="195" cy="269" r="18" fill="#fff" fill-opacity="0.88"/>
-            <path d="M174 333L192 304L204 321L215 302L228 333Z" fill="#07101b" fill-opacity="0.72"/>
+            <path d="M118 348L184 288" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+            <path d="M205 274L272 214" fill="none" stroke="#fff" stroke-width="15" stroke-linecap="round"/>
+            <circle cx="308" cy="189" r="29" fill="#66e2a3" fill-opacity="0.18" stroke="#66e2a3" stroke-width="6"/>
+            <circle cx="308" cy="189" r="8" fill="#66e2a3"/>
             <g fill="#fff" font-family="-apple-system, sans-serif">
-              <text x="24" y="55" font-size="16" font-weight="700">Wind Tunnel</text>
-              <text x="24" y="79" font-size="11" fill-opacity="0.52">Creator Mode</text>
+              <text x="24" y="55" font-size="16" font-weight="700">Wind Paths</text>
+              <text x="24" y="79" font-size="11" fill-opacity="0.52">Challenge</text>
             </g>
             <rect x="24" y="511" width="342" height="40" rx="13" fill="#fff" fill-opacity="0.07" stroke="#fff" stroke-opacity="0.1"/>
             <circle cx="57" cy="531" r="8" fill="#48d9ff"/>
@@ -709,8 +709,8 @@
           </svg>
         </div>
         <div class="creator-chip">
-          <span class="chip-label">Creator Update 1.4</span>
-          <span class="chip-title" data-lang data-ko="사진과 로고를 바람 속으로" data-en="Put photos and logos in the flow">사진과 로고를 바람 속으로</span>
+          <span class="chip-label">Fluid Challenges 1.5</span>
+          <span class="chip-title" data-lang data-ko="실제 흐름으로 승부하세요" data-en="Let real airflow decide">실제 흐름으로 승부하세요</span>
         </div>
       </div>
     </div>
@@ -740,7 +740,7 @@
             <div class="mode-body">
               <span class="mode-number">01</span>
               <h3>Wind Tunnel</h3>
-              <p data-lang data-ko="벽을 그리면 바람이 장애물을 피해 흐르는 모습을 바로 확인할 수 있습니다." data-en="Draw a wall and instantly watch the wind bend, split, and flow around it.">벽을 그리면 바람이 장애물을 피해 흐르는 모습을 바로 확인할 수 있습니다.</p>
+              <p data-lang data-ko="벽을 그리거나 사진과 로고를 놓고, 바람이 구조물을 피해 흐르는 모습을 바로 확인하세요." data-en="Draw walls or place photos and logos, then watch the wind bend, split, and flow around them.">벽을 그리거나 사진과 로고를 놓고, 바람이 구조물을 피해 흐르는 모습을 바로 확인하세요.</p>
             </div>
           </article>
 
@@ -784,37 +784,37 @@
       </div>
     </section>
 
-    <section class="creator-section" id="creator">
+    <section class="creator-section" id="challenges">
       <div class="shell">
         <div class="creator-panel">
           <div class="creator-top">
             <div>
-              <span class="coming-badge" data-lang data-ko="1.4 Creator Update · 지금 이용 가능" data-en="1.4 Creator Update · Available now">1.4 Creator Update · 지금 이용 가능</span>
-              <h2 data-lang data-ko="내 사진이 바람을 바꿉니다." data-en="Your image changes the wind.">내 사진이 바람을 바꿉니다.</h2>
+              <span class="coming-badge" data-lang data-ko="1.5 유체 도전 · 곧 출시" data-en="1.5 Fluid Challenges · Coming soon">1.5 유체 도전 · 곧 출시</span>
+              <h2 data-lang data-ko="흐름을 보고, 길을 만들고, 기록을 깨세요." data-en="Read the flow. Shape the path. Beat your best.">흐름을 보고, 길을 만들고, 기록을 깨세요.</h2>
             </div>
-            <p class="section-copy" data-lang data-ko="사진이나 로고를 Wind Tunnel에 넣고 실제 구조물처럼 사용하세요. 결과는 정지 화면이나 영상으로 바로 공유할 수 있습니다." data-en="Place a photo or logo inside Wind Tunnel and use it like a real obstacle. Capture the result as an image or a video, ready to share.">사진이나 로고를 Wind Tunnel에 넣고 실제 구조물처럼 사용하세요. 결과는 정지 화면이나 영상으로 바로 공유할 수 있습니다.</p>
+            <p class="section-copy" data-lang data-ko="정해진 답을 외우는 퍼즐이 아닙니다. 직접 만든 구조물 위에서 실시간 유체 시뮬레이션이 결과를 결정합니다." data-en="These are not puzzles with one memorized answer. Build your own structure and let a real-time fluid simulation decide the result.">정해진 답을 외우는 퍼즐이 아닙니다. 직접 만든 구조물 위에서 실시간 유체 시뮬레이션이 결과를 결정합니다.</p>
           </div>
 
           <div class="creator-features">
             <article class="feature">
-              <div class="feature-icon" aria-hidden="true">＋</div>
-              <h3 data-lang data-ko="사진과 로고 추가" data-en="Add photos and logos">사진과 로고 추가</h3>
-              <p data-lang data-ko="내 이미지를 바람 속 구조물로 배치합니다." data-en="Turn your own image into an obstacle in the flow.">내 이미지를 바람 속 구조물로 배치합니다.</p>
-            </article>
-            <article class="feature">
-              <div class="feature-icon" aria-hidden="true">✦</div>
-              <h3 data-lang data-ko="배경 제거" data-en="Remove backgrounds">배경 제거</h3>
-              <p data-lang data-ko="기기 안에서 빠르게 피사체만 분리합니다." data-en="Isolate the subject quickly, right on your device.">기기 안에서 빠르게 피사체만 분리합니다.</p>
-            </article>
-            <article class="feature">
               <div class="feature-icon" aria-hidden="true">↗</div>
-              <h3 data-lang data-ko="자유로운 조정" data-en="Transform freely">자유로운 조정</h3>
-              <p data-lang data-ko="이동하고 회전하고 두 손가락으로 크기를 맞춥니다." data-en="Move, rotate, and resize naturally with two fingers.">이동하고 회전하고 두 손가락으로 크기를 맞춥니다.</p>
+              <h3 data-lang data-ko="바람길" data-en="Wind Paths">바람길</h3>
+              <p data-lang data-ko="벽을 그려 아래에서 들어오는 바람을 목표 지점으로 보내세요." data-en="Draw walls and guide the rising wind into the target.">벽을 그려 아래에서 들어오는 바람을 목표 지점으로 보내세요.</p>
             </article>
             <article class="feature">
-              <div class="feature-icon" aria-hidden="true">●</div>
-              <h3 data-lang data-ko="녹화와 공유" data-en="Record and share">녹화와 공유</h3>
-              <p data-lang data-ko="움직이는 결과를 영상이나 사진으로 남깁니다." data-en="Save the motion as a video or capture a still image.">움직이는 결과를 영상이나 사진으로 남깁니다.</p>
+              <div class="feature-icon" aria-hidden="true">⌁</div>
+              <h3 data-lang data-ko="바람 미로" data-en="Wind Maze">바람 미로</h3>
+              <p data-lang data-ko="고체를 파고 메워 바람이 최대한 늦게 탈출하는 길을 만드세요." data-en="Carve and refill a route that makes the wind escape as late as possible.">고체를 파고 메워 바람이 최대한 늦게 탈출하는 길을 만드세요.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">Ⅱ</div>
+              <h3 data-lang data-ko="멈추고 다시 설계" data-en="Pause and redesign">멈추고 다시 설계</h3>
+              <p data-lang data-ko="현재 디자인을 유지한 채 멈추고, 계속하고, 수정해 다시 도전하세요." data-en="Keep your design while you pause, continue, edit, and retry.">현재 디자인을 유지한 채 멈추고, 계속하고, 수정해 다시 도전하세요.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-icon" aria-hidden="true">★</div>
+              <h3 data-lang data-ko="개인 최고 기록" data-en="Personal bests">개인 최고 기록</h3>
+              <p data-lang data-ko="iPhone과 iPad에서 각 도전의 최고 기록을 따로 갱신하세요." data-en="Improve a separate personal best for each challenge on iPhone and iPad.">iPhone과 iPad에서 각 도전의 최고 기록을 따로 갱신하세요.</p>
             </article>
           </div>
         </div>
