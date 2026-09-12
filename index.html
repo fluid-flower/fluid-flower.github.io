@@ -230,6 +230,38 @@
 
     .button-secondary { background: rgba(255, 255, 255, 0.055); }
 
+    .tester-call {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 18px;
+      padding: 10px 15px;
+      border: 1px solid rgba(102, 226, 163, 0.32);
+      border-radius: 12px;
+      background: rgba(102, 226, 163, 0.07);
+      color: var(--text);
+      font-size: 0.92rem;
+      font-weight: 650;
+      text-decoration: none;
+      transition: border-color 160ms ease, background 160ms ease;
+    }
+
+    .tester-call:hover,
+    .tester-call:focus-visible {
+      border-color: rgba(102, 226, 163, 0.55);
+      background: rgba(102, 226, 163, 0.12);
+    }
+
+    .tester-call .robot {
+      font-size: 1.05rem;
+      line-height: 1;
+    }
+
+    .tester-call .arrow {
+      color: var(--green);
+      font-weight: 750;
+    }
+
     .apple-mark {
       font-size: 1.25rem;
       line-height: 1;
@@ -666,6 +698,11 @@
           </a>
           <a class="button button-secondary" href="#challenges" data-lang data-ko="새 도전 보기" data-en="Explore challenges" data-ja="チャレンジを見る">새 도전 보기</a>
         </div>
+        <a class="tester-call" href="/android/">
+          <span class="robot" aria-hidden="true">🤖</span>
+          <span data-lang data-ko="안드로이드 테스터를 찾고 있습니다" data-en="Looking for Android testers" data-ja="Android テスターを募集中">안드로이드 테스터를 찾고 있습니다</span>
+          <span class="arrow" aria-hidden="true">&rarr;</span>
+        </a>
       </div>
 
       <div class="hero-visual" aria-label="Wind Paths real-time simulation preview">
