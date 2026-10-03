@@ -1,0 +1,170 @@
+[
+  {
+    "file": "smoke-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/04-smoke.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 25804,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "smoke-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/04-smoke.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 27418,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "smoke-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/04-smoke.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 26904,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "wind-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/06-wind-logo.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 22898,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "wind-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/06-wind-logo.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 23366,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "wind-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/06-wind-logo.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 23140,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "liquid-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/07-liquid.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 10554,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "liquid-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/07-liquid.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 9424,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "liquid-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/07-liquid.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 8070,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "swipe-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/08-swipe.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 16740,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "swipe-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/08-swipe.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 18020,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "swipe-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/08-swipe.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 15976,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "paths-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/02-wind-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 113080,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "paths-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/02-wind-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 117600,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "paths-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/02-wind-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 121316,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "maze-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/05-wind-maze.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 117954,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "maze-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/05-wind-maze.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 116646,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "maze-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/05-wind-maze.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 114626,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "delivery-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/03-smoke-delivery.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21280,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "delivery-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/03-smoke-delivery.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 23292,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "delivery-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/03-smoke-delivery.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21944,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  }
+]
