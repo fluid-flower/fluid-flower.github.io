@@ -166,5 +166,29 @@
     "height": 1434,
     "bytes": 21944,
     "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "water-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/01-water.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 34688,
+    "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "water-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/01-water.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 34688,
+    "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "water-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/01-water.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 34688,
+    "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
   }
 ]
