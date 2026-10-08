@@ -190,5 +190,21 @@
     "height": 1434,
     "bytes": 34688,
     "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "waterpaths-ko.webp",
+    "source": "artifacts/app-store/2.6/raw/iphone-6.9/ko/02-water-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 18510,
+    "note": "iOS 2.6 실제 촬영 원본(App Store 2번째 장면). 2026-10-08 출시 뒤 로컬 초안에 추가. 일본어 원본 raw/iphone-6.9/ja/02-water-paths.png는 단계 목록이 닫히는 중에 찍혀 쓰지 않았고, 일본어 화면은 재촬영 전까지 영어 이미지를 쓴다. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "waterpaths-en.webp",
+    "source": "artifacts/app-store/2.6/raw/iphone-6.9/en/02-water-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21528,
+    "note": "iOS 2.6 실제 촬영 원본(App Store 2번째 장면). 2026-10-08 출시 뒤 로컬 초안에 추가. 일본어 원본 raw/iphone-6.9/ja/02-water-paths.png는 단계 목록이 닫히는 중에 찍혀 쓰지 않았고, 일본어 화면은 재촬영 전까지 영어 이미지를 쓴다. 공개 배포는 사용자 승인 대기."
   }
 ]
