@@ -214,5 +214,29 @@
     "height": 1434,
     "bytes": 22670,
     "note": "iOS 2.7 재촬영 원본(2.6 일본어 원본이 단계 목록 화면이라 10/8 다시 찍음, 대조표 검수). 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "target-ko.webp",
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/ko/02-force-arrow.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 76858,
+    "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
+  },
+  {
+    "file": "target-en.webp",
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/en/02-force-arrow.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 78174,
+    "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
+  },
+  {
+    "file": "target-ja.webp",
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/ja/02-force-arrow.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 77110,
+    "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
   }
 ]
