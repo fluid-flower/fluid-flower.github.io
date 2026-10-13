@@ -238,5 +238,85 @@
     "height": 1434,
     "bytes": 77110,
     "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
+  },
+  {
+    "file": "water-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 37568,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/03-water.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "target-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 85134,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/02-force-arrow.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "paths-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 120196,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/04-wind-paths.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "maze-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 102960,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/07-wind-maze.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "delivery-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21806,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/05-smoke-delivery.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "smoke-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21192,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/06-smoke.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "wind-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 19282,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/08-wind-logo.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "liquid-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 9110,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/09-liquid.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "waterpaths-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 29086,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/01-water-cup.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80). 물길 카드는 2.8 첫 장 「컵 채우기」(1단계 장면은 독일어 촬영이 없다)."
+  },
+  {
+    "file": "swipe-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 18020,
+    "source": "swipe-en.webp",
+    "note": "2026-10-13 독일어 바람 그림 촬영본이 없어 영어 그림을 임시로 쓴다(화면 글자는 아래 탭뿐). 다음 iOS 촬영 때 독일어로 교체."
   }
 ]
