@@ -149,3 +149,4 @@ video{display:block;max-width:100%;width:auto;max-height:62dvh;margin:auto;borde
 @media(max-width:1180px){.challenge-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:900px){.challenge-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.challenge-grid>.challenge:first-child{grid-column:1/-1}}
 @media(max-width:600px){.challenge-grid{grid-template-columns:1fr}}
+.business-info{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:14px 32px;margin:8px 0 70px}.business-info dt{font-weight:700}.business-info dd{margin:0;color:var(--muted);overflow-wrap:anywhere}@media(max-width:640px){.business-info{grid-template-columns:1fr;gap:4px}.business-info dd{margin-bottom:14px}}
