@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fluid-flower.github.io/sitemap.xml
+Sitemap: https://fluidflower.app/sitemap.xml
