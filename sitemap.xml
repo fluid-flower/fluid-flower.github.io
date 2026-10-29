@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://fluid-flower.github.io/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://fluid-flower.github.io/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluid-flower.github.io/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://fluid-flower.github.io/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fluid-flower.github.io/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluid-flower.github.io/"/>
+  </url>
+  <url>
+    <loc>https://fluid-flower.github.io/android/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://fluid-flower.github.io/android/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluid-flower.github.io/android/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://fluid-flower.github.io/android/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fluid-flower.github.io/android/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluid-flower.github.io/android/"/>
+  </url>
+  <url>
+    <loc>https://fluid-flower.github.io/swipe-the-flow-privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://fluid-flower.github.io/swipe-the-flow-privacy/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluid-flower.github.io/swipe-the-flow-privacy/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://fluid-flower.github.io/swipe-the-flow-privacy/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fluid-flower.github.io/swipe-the-flow-privacy/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluid-flower.github.io/swipe-the-flow-privacy/"/>
+  </url>
+  <url>
+    <loc>https://fluid-flower.github.io/swipe-the-flow-privacy/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluid-flower.github.io/swipe-the-flow-privacy/support.html"/>
+  </url>
+  <url>
+    <loc>https://fluid-flower.github.io/business/</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://fluid-flower.github.io/business/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluid-flower.github.io/business/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://fluid-flower.github.io/business/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fluid-flower.github.io/business/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluid-flower.github.io/business/"/>
+  </url>
+</urlset>

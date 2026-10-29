@@ -1,0 +1,330 @@
+[
+  {
+    "file": "smoke-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/04-smoke.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 25804,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "smoke-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/04-smoke.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 27418,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "smoke-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/04-smoke.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 26904,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "wind-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/06-wind-logo.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 22898,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "wind-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/06-wind-logo.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 23366,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "wind-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/06-wind-logo.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 23140,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "liquid-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/07-liquid.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 10554,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "liquid-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/07-liquid.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 9424,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "liquid-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/07-liquid.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 8070,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "swipe-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/08-swipe.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 16740,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "swipe-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/08-swipe.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 18020,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "swipe-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/08-swipe.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 15976,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "paths-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/02-wind-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 113080,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "paths-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/02-wind-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 117600,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "paths-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/02-wind-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 121316,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "maze-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/05-wind-maze.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 117954,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "maze-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/05-wind-maze.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 116646,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "maze-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/05-wind-maze.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 114626,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "delivery-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/03-smoke-delivery.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21280,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "delivery-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/03-smoke-delivery.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 23292,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "delivery-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/03-smoke-delivery.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21944,
+    "note": "2026-10-02 실제 iOS 촬영. 기존 공개 모드만 선택; 2.5 신규 물 놀이터 제외. 촬영 버전을 홈페이지에 명시. 출시 2.4 기능 소개와 구분."
+  },
+  {
+    "file": "water-ko.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ko/01-water.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 34688,
+    "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "water-en.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/en/01-water.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 34688,
+    "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "water-ja.webp",
+    "source": "artifacts/app-store/2.5/raw/iphone-6.9/ja/01-water.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 34688,
+    "note": "iOS 2.5 실제 촬영 원본. 2026-10-04 출시 확인 후 로컬 소개에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "waterpaths-ko.webp",
+    "source": "artifacts/app-store/2.6/raw/iphone-6.9/ko/02-water-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 18510,
+    "note": "iOS 2.6 실제 촬영 원본(App Store 2번째 장면). 2026-10-08 출시 뒤 로컬 초안에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "waterpaths-en.webp",
+    "source": "artifacts/app-store/2.6/raw/iphone-6.9/en/02-water-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21528,
+    "note": "iOS 2.6 실제 촬영 원본(App Store 2번째 장면). 2026-10-08 출시 뒤 로컬 초안에 추가. 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "waterpaths-ja.webp",
+    "source": "artifacts/app-store/2.7/raw/iphone-6.9/ja/02-water-paths.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 22670,
+    "note": "iOS 2.7 재촬영 원본(2.6 일본어 원본이 단계 목록 화면이라 10/8 다시 찍음, 대조표 검수). 공개 배포는 사용자 승인 대기."
+  },
+  {
+    "file": "target-ko.webp",
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/ko/02-force-arrow.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 76858,
+    "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
+  },
+  {
+    "file": "target-en.webp",
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/en/02-force-arrow.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 78174,
+    "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
+  },
+  {
+    "file": "target-ja.webp",
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/ja/02-force-arrow.png",
+    "width": 660,
+    "height": 1434,
+    "bytes": 77110,
+    "note": "2026-10-11 실제 iOS 2.8 촬영(스토어 2번 장면 — 12단계 우산 정답 성공 화면). cwebp -q 78, 원본 1320×2868의 절반. 2.8 출시 날 공개용 초안."
+  },
+  {
+    "file": "water-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 37568,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/03-water.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "target-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 85134,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/02-force-arrow.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "paths-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 120196,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/04-wind-paths.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "maze-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 102960,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/07-wind-maze.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "delivery-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21806,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/05-smoke-delivery.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "smoke-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 21192,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/06-smoke.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "wind-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 19282,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/08-wind-logo.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "liquid-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 9110,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/09-liquid.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80)."
+  },
+  {
+    "file": "waterpaths-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 29086,
+    "source": "artifacts/app-store/2.8/raw/iphone-6.9/de/01-water-cup.png",
+    "note": "2026-10-13 홈페이지 독일어 추가. iOS 2.8 스토어 독일어 촬영본(cwebp -q 80). 물길 카드는 2.8 첫 장 「컵 채우기」(1단계 장면은 독일어 촬영이 없다)."
+  },
+  {
+    "file": "swipe-de.webp",
+    "width": 660,
+    "height": 1434,
+    "bytes": 18020,
+    "source": "swipe-en.webp",
+    "note": "2026-10-13 독일어 바람 그림 촬영본이 없어 영어 그림을 임시로 쓴다(화면 글자는 아래 탭뿐). 다음 iOS 촬영 때 독일어로 교체."
+  },
+  {
+    "file": "og.jpg",
+    "source": "smoke-en.webp · water-en.webp · wind-en.webp 원래 비율 축소 배치, 글자 없음",
+    "width": 1200,
+    "height": 630,
+    "bytes": 78988,
+    "note": "공유 미리보기 그림."
+  }
+]
