@@ -40,4 +40,12 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://fluidflower.app/business/?lang=de"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://fluidflower.app/business/"/>
   </url>
+  <url>
+    <loc>https://fluidflower.app/swipe-the-flow-privacy/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://fluidflower.app/swipe-the-flow-privacy/terms.html?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://fluidflower.app/swipe-the-flow-privacy/terms.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://fluidflower.app/swipe-the-flow-privacy/terms.html?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://fluidflower.app/swipe-the-flow-privacy/terms.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://fluidflower.app/swipe-the-flow-privacy/terms.html"/>
+  </url>
 </urlset>
