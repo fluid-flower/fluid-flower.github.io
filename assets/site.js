@@ -1,6 +1,10 @@
 (()=>{'use strict';
 // 홈페이지·Android 안내·사업자 정보·개인정보처리방침·고객지원·지난 판(09-27 이후)이 함께 쓴다.
-const languages=['ko','en','ja','de'];
+const languages=['ko','en','ja','de','zh'];
+// 중국어는 간체만 — html lang은 글꼴이 중국식 자형을 고르게 zh-Hans로(앱과 같은 규칙, T1164).
+const htmlLang=lang=>lang==='zh'?'zh-Hans':lang;
+// 번체(대만·홍콩·마카오·Hant)는 간체로 보내지 않고 다음 선호 언어로 넘어간다.
+const browserLanguage=tag=>{const t=String(tag).toLowerCase();if(t.startsWith('zh'))return /hant|-tw|-hk|-mo/.test(t)?null:'zh';return t.slice(0,2)};
 const select=document.getElementById('languageSelect');
 const supported=lang=>languages.includes(lang);
 
@@ -23,7 +27,7 @@ function setText(el,text){
 
 function apply(lang){
   lang=resolve(supported(lang)?lang:'en');
-  document.documentElement.lang=lang;
+  document.documentElement.lang=htmlLang(lang);
   document.querySelectorAll('[data-ko]').forEach(el=>setText(el,el.getAttribute('data-'+lang)||el.getAttribute('data-en')||el.dataset.ko));
   document.querySelectorAll('[data-aria-ko]').forEach(el=>el.setAttribute('aria-label',el.getAttribute('data-aria-'+lang)||el.getAttribute('data-aria-en')||el.getAttribute('data-aria-ko')));
   document.querySelectorAll('[data-language]').forEach(el=>{el.hidden=el.dataset.language!==lang});
@@ -42,7 +46,7 @@ function initialLanguage(){
   let saved=null;
   try{saved=localStorage.getItem('site-language')||localStorage.getItem('swipeTheFlowLanguage')}catch{}
   if(supported(saved))return saved;
-  for(const tag of (navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||''])){const lang=String(tag).slice(0,2).toLowerCase();if(supported(lang))return lang}
+  for(const tag of (navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||''])){const lang=browserLanguage(tag);if(supported(lang))return lang}
   return 'en';
 }
 apply(initialLanguage());

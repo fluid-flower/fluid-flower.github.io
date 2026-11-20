@@ -180,6 +180,6 @@ video{display:block;max-width:100%;width:auto;max-height:62dvh;margin:auto;borde
 .pro-list li{display:flex;gap:8px;align-items:baseline}
 .pro-list .check{flex:none}
 /* 한국어용 keep-all이 일본어에선 「。」만 다음 줄로 밀어낸다 — 일본어는 일반 줄바꿈 */
-html:lang(ja) body{word-break:normal;line-break:strict}
+html:lang(ja) body,:lang(zh) body{word-break:normal;line-break:strict}
 .free-box.hero-free{margin:14px 0 16px}
 .tablet{width:min(300px,100%);margin:auto;border:7px solid #21352e;border-radius:22px;overflow:hidden;background:#21352e;aspect-ratio:3/4}.tablet video{display:block;width:100%;height:100%;object-fit:cover}
