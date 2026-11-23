@@ -8,7 +8,14 @@
   <script>
     var appStore = "https://apps.apple.com/app/apple-store/id6766940354?pt=128865715&ct=youtube&mt=8";
     var googlePlay = "https://play.google.com/store/apps/details?id=io.github.fluidflower.swipetheflow&referrer=utm_source%3Dyoutube%26utm_medium%3Dprofile";
-    window.location.replace(/android/i.test(navigator.userAgent) ? googlePlay : appStore);
+    // 스팀 상점 페이지가 공개되는 날 true 로 — 그때부터 휴대폰·태블릿이 아닌 기기만 스팀으로 보낸다.
+    var steamLive = false;
+    var steam = "https://store.steampowered.com/app/5539750/?utm_source=youtube&utm_medium=profile&utm_campaign=coming_soon";
+    var ua = navigator.userAgent;
+    var onAndroid = /android/i.test(ua);
+    // 아이패드는 맥 이름으로 자기를 알리므로 손가락 입력 수로 가린다.
+    var onApplePhone = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    window.location.replace(onAndroid ? googlePlay : (steamLive && !onApplePhone) ? steam : appStore);
   </script>
   <noscript>
     <meta http-equiv="refresh" content="0; url=https://apps.apple.com/app/apple-store/id6766940354?pt=128865715&amp;ct=youtube&amp;mt=8">
